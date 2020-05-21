@@ -6,38 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Registration</title>
 </head>
 
 <body>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <h3 class="mb-3">Registratin</h3>
-                <form action="">
+                <h3 class="mb-3">Registration</h3>
+                <form action="" class="mb-4" id="regForm">
                     <div class="form-group">
                         <label for="email">Email address:</label>
                         <input type="email" class="form-control" placeholder="Enter email" id="email">
                     </div>
                     <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" placeholder="Enter name" id="name">
+                    </div>
+                    <div class="form-group">
                         <label for="pwd">Password:</label>
                         <input type="password" class="form-control" placeholder="Enter password" id="pwd">
                     </div>
-                    <button type="submit" class="btn btn-outline-success">Submit</button>
+                    <button type="submit" class="btn btn-outline-success mt-3">Register on the site</button>
                 </form>
             </div>
             <div class="col-md-6 col-sm-12">
                 <h3 class="mb-3">Login</h3>
-                <form action="">
+                <form action="" id="logForm">
                     <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control" placeholder="Enter email" id="email">
+                        <label for="logEmail">Email address:</label>
+                        <input type="email" class="form-control" placeholder="Enter email" id="logEmail">
                     </div>
                     <div class="form-group">
-                        <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+                        <label for="logPwd">Password:</label>
+                        <input type="password" class="form-control" placeholder="Enter password" id="logPwd">
                     </div>
-                    <button type="submit" class="btn btn-outline-success">Submit</button>
+                    <button type="submit" class="btn btn-outline-success mt-3">Login</button>
                 </form>
             </div>
         </div>

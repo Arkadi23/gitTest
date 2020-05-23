@@ -28,4 +28,3 @@ getDomELem('#logForm').onsubmit = (event) => {
     event.preventDefault();
     console.log('a');
 }
-
